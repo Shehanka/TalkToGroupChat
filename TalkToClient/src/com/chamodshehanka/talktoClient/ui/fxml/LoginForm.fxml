@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootLoginForm" prefHeight="600.0" prefWidth="800.0" styleClass="fxml" stylesheets="@../css/main-utils.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.chamodshehanka.talktoClient.ui.controller.LoginFormController">
+   <children>
+      <AnchorPane prefHeight="128.0" prefWidth="800.0" styleClass="header">
+         <children>
+            <Text fill="WHITE" layoutX="106.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login">
+               <font>
+                  <Font name="Calibri Bold" size="30.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="65.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/user.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <JFXTextField fx:id="txtUserName" focusColor="#59267c" labelFloat="true" layoutX="324.0" layoutY="231.0" promptText="User Name" style="-fx-prompt-text-fill: #8e44ad; -fx-text-inner-color: #8e44ad;" unFocusColor="#59267c">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </JFXTextField>
+      <JFXPasswordField fx:id="txtPassword" focusColor="#59267c" labelFloat="true" layoutX="324.0" layoutY="294.0" promptText="Password" style="-fx-prompt-text-fill: #8e44ad; -fx-text-inner-color: #8e44ad;" unFocusColor="#59267c">
+         <font>
+            <Font name="Calibri Bold" size="18.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton fx:id="btnLogin" layoutX="324.0" layoutY="351.0" onAction="#signIn" prefHeight="35.0" prefWidth="196.0" ripplerFill="#820e8d" style="-fx-background-color: #8f5db7;" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

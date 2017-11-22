@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TalkToClient/TalkToClient.iml" filepath="$PROJECT_DIR$/TalkToClient/TalkToClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TalkToCommon/TalkToCommon.iml" filepath="$PROJECT_DIR$/TalkToCommon/TalkToCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TalkToServer/TalkToServer.iml" filepath="$PROJECT_DIR$/TalkToServer/TalkToServer.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+.fxml{
+    -fx-background-color: #e2d4e7;
+}
+
+.header{
+    -fx-background-color: #8f5db7;
+}
+
+.side-pane{
+    -fx-background-color: #59267c;
+}
+
+.side-pane-menu{
+    -fx-background-color: #8f5db7;
+}
+
+.contacts{
+
+}
+
+.text-area{
+    -fx-text-fill: #59267c;
+}
